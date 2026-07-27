@@ -2,10 +2,8 @@
 
 **Circularity-Aware Audit Tool for Biomedical Prediction**
 
-[![PyPI](https://img.shields.io/pypi/v/circ-audit.svg)](https://pypi.org/project/circ-audit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Test Status](https://img.shields.io/github/actions/workflow/status/cuilei/circ-audit/test.yml?branch=main)](https://github.com/cuilei/circ-audit/actions)
 
 CircAudit is an open-source framework for systematically detecting and quantifying **circularity** (knowledge leakage) in biomedical prediction tasks. It implements the four-type circularity taxonomy (C1–C4) and the seven-rule evaluation protocol described in our paper:
 
@@ -35,7 +33,7 @@ pip install circ-audit
 pip install circ-audit[xgboost,plotly]
 
 # From source
-git clone https://github.com/cuilei/circ-audit.git
+git clone https://github.com/cuilei-bib/circ-audit.git
 cd circ-audit
 pip install -e .
 ```
@@ -251,7 +249,7 @@ If you use CircAudit in your research, please cite:
   journal={Briefings in Bioinformatics},
   year={2026},
   volume={27},
-  doi={10.1093/bib/bbaeXXX}
+  doi={10.1093/bib/bbae492}
 }
 ```
 
@@ -277,4 +275,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## Contact
 
-For questions and feedback, please open a [GitHub Issue](https://github.com/cuilei/circ-audit/issues).
+For questions and feedback, please open a [GitHub Issue](https://github.com/cuilei-bib/circ-audit/issues).
