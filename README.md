@@ -33,7 +33,7 @@ pip install circ-audit
 pip install circ-audit[xgboost,plotly]
 
 # From source
-git clone https://github.com/cuilei-bib/circ-audit.git
+git clone https://github.com/ovc-bib/circ-audit.git
 cd circ-audit
 pip install -e .
 ```
@@ -275,4 +275,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## Contact
 
-For questions and feedback, please open a [GitHub Issue](https://github.com/cuilei-bib/circ-audit/issues).
+For questions and feedback, please open a [GitHub Issue](https://github.com/ovc-bib/circ-audit/issues).
