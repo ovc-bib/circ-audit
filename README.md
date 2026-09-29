@@ -167,12 +167,21 @@ viz.plot_cross_domain_synthesis(domain_results, format="both")
 
 ---
 
-## Seven-Rule Evaluation Protocol
+## Seven-Rule Reporting Protocol
 
-CircAudit implements the CDRL (Circularity-Disentangled Reporting Label) — a 7-rule protocol for honest evaluation:
+CircAudit ships a graduated seven-rule reporting protocol for honest evaluation of database-driven predictors, rated from problematic (0-1 rules satisfied) through concerning (2-3), acceptable (4) and good (5) to excellent (6-7):
 
 | Rule | Description | Check |
 |------|-------------|-------|
+| R1 | Positive definition stated | Evidence sources listed for the gold standard |
+| R2 | Positives dated | First experimental evidence year per positive |
+| R3 | Labels restricted to a stated cutoff | Training uses only knowledge available at T |
+| R4 | Feature vintages stated | Vintage of every knowledge-derived feature column |
+| R5 | Rank stability reported | Spearman rho between each channel's vintage and the present |
+| R6 | Non-knowledge floor included | At least one non-knowledge feature family evaluated |
+| R7 | Shortlist yield reported | Hits at a fixed depth against the random expectation |
+
+------|-------------|-------|
 | R1 | Knowledge exposure computed | ρ(S, E_K) for each method |
 | R2 | C1–C4 flags assigned | Per-method flagging |
 | R3 | Non-circular baseline trained | Model on non-circular features only |
@@ -182,6 +191,48 @@ CircAudit implements the CDRL (Circularity-Disentangled Reporting Label) — a 7
 | R7 | Nested CV or temporal split | Evaluation rigor check |
 
 ---
+
+## Temporal Evaluation Instruments
+
+The temporal-evaluation instruments of the accompanying manuscript
+("A temporal evaluation of feature-side inflation in synthetic lethality
+prediction") ship in `circ_audit_tool.temporal`:
+
+| Instrument | Function | Manuscript |
+|---|---|---|
+| Evidence dating | `first_evidence_year(evidence)` | Eq (1) |
+| Cutoff split | `cutoff_split(years, cutoff)` | train <= T < test |
+| Rank-normalised degree | `rank_normalised_degree(edges, nodes)` | Eq (3) |
+| Personalised PageRank | `personalised_pagerank(edges, nodes, seeds)` | Eq (4), alpha = 0.15 |
+| BFS proximity | `bfs_proximity(edges, nodes, seeds)` | Eq (5) |
+| All three features | `build_snapshot_features(edges, nodes, seeds)` | Feature vintages |
+| Pair transforms | `pair_transform(x_u, x_v)` | Eq (6) |
+| Pairwise AUROC | `auroc_pairwise(y_true, scores)` | Eq (7) |
+| Rank stability | `rank_stability(f_a, f_b)` | Eq (8) |
+| Feature-side absorption | `absorption(A_a, A_b)` | Eq (9) |
+
+```python
+from circ_audit_tool.temporal import build_snapshot_features, rank_stability
+
+# rebuild the three features on any archived release with identical code
+table_2016 = build_snapshot_features(hetionet_edges, candidates, hr_seeds)
+table_2021 = build_snapshot_features(string_v11_edges, candidates, hr_seeds)
+
+# the diagnostic: how much does the channel reorder gene prominence?
+rho = rank_stability(table_2016["degree_rank"], table_2021["degree_rank"])
+```
+
+## Revision Data and Analysis Scripts
+
+- `data/` — the evidence-dated gene and pair gold standards, the negative
+  pools, per-gene and per-pair scores, and the result table behind every
+  figure and table of the manuscript (36 CSV files).
+- `analysis/` — the exact scripts that produced them (t1-t12, a/b/c series,
+  figure generation and the number cross-check). They reference the original
+  project layout through `tm_utils.V11`; set the `CIRCAUDIT_HOME`
+  environment variable to relocate, and see the Data and code availability
+  statement of the manuscript for the raw database releases the pipeline
+  consumes.
 
 ## API Reference
 
@@ -231,6 +282,9 @@ The package includes a self-contained framework sub-package:
 ```bash
 # End-to-end test suite
 python test_e2e.py
+
+# Temporal-instrument tests
+python test_temporal.py
 
 # Or with pytest
 pytest test_e2e.py -v

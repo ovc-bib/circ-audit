@@ -1,0 +1,4 @@
+instrument,auroc,ci_lo,ci_hi,p_paired_bootstrap
+PubMed count pre-2017,0.6528,0.5743,0.7196,
+PubMed count all-time,0.6765,0.6042,0.7439,
+absorption pre-2017 -> all-time,0.0237,0.0028,0.0463,0.025

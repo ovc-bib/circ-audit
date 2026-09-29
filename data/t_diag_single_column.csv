@@ -1,0 +1,23 @@
+feature,auroc_2017plus,mechanism
+sl_pair_count,0.9693,label restatement
+lit_score,0.9687,study bias + literature absorption
+is_known_sl_partner,0.9118,label restatement
+ppi_proximity_score,0.8832,network position + absorption
+crispr_lfc_std,0.8219,perturbation variability (clean)
+BioGRID_2013_degree,0.7561,vintage-clean study bias
+BioGRID_2015_degree,0.7555,vintage-clean study bias
+kg_score,0.7277,knowledge-graph channel
+degree_centrality,0.7244,study-bias carrier
+degree_raw,0.7241,study-bias carrier
+ppr_score,0.7039,network position + absorption
+Hetionet_2016_degree,0.6982,vintage-clean study bias
+ppr_score_norm,0.6892,network position + absorption
+kg_non_hetionet_score,0.6771,knowledge-graph channel
+kg_source_score,0.6696,knowledge-graph channel
+ctd_score,0.6413,knowledge channel
+pathway_enriched_score,0.6285,knowledge channel (weak)
+coess_score,0.5515,omics (weak)
+pathway_count,0.5431,knowledge channel (weak)
+cond_ess_score,0.5431,omics (weak)
+pathway_score,0.5427,knowledge channel (weak)
+crispr_lfc_median,0.217,perturbation effect (clean)

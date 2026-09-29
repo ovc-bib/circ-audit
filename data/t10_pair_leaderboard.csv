@@ -1,0 +1,43 @@
+method,cutoff,auroc,ci_lo,ci_hi,p_at_20,n_test_pos,retro,label_increment,p
+Label-free PPR pair (current),2012,0.8223,0.8141,0.8304,1.0,8807.0,,,
+Label-free PPR pair (current),2014,0.8341,0.8256,0.8419,1.0,7548.0,,,
+Label-free PPR pair (current),2016,0.8288,0.82,0.8373,1.0,7119.0,,,
+Label-free PPR pair (v2016),2012,0.7868,0.7781,0.7956,1.0,8807.0,,,
+Label-free PPR pair (v2016),2014,0.7754,0.7659,0.7845,1.0,7548.0,,,
+Label-free PPR pair (v2016),2016,0.7711,0.7619,0.7808,1.0,7119.0,,,
+PPI pair (STRING 2021),2012,0.7635,0.7542,0.7731,1.0,,0.8849,,
+PPI pair (STRING 2021),2014,0.7985,0.7896,0.8071,1.0,,0.8849,,
+PPI pair (STRING 2021),2016,0.7889,0.78,0.7982,1.0,,0.8849,,
+PPI pair (Hetionet 2016),2012,0.7682,0.759,0.7772,0.95,,,,
+PPI pair (Hetionet 2016),2014,0.7276,0.7178,0.7374,1.0,,,,
+PPI pair (Hetionet 2016),2016,0.7221,0.7114,0.7327,0.95,,,,
+CRISPR pair,2012,0.5609,0.5507,0.5716,1.0,,0.9262,,
+CRISPR pair,2014,0.6176,0.6072,0.6284,1.0,,0.9262,,
+CRISPR pair,2016,0.6099,0.5991,0.6207,0.95,,0.9262,,
+Fusion pair (current),2012,0.5865,0.576,0.5965,1.0,,0.9507,,
+Fusion pair (current),2014,0.6376,0.6271,0.648,1.0,,0.9507,,
+Fusion pair (current),2016,0.6416,0.6308,0.6522,0.95,,0.9507,,
+Fusion pair (2016 networks),2012,0.6614,0.6517,0.6713,1.0,,,,
+Fusion pair (2016 networks),2014,0.6578,0.6473,0.6682,1.0,,,,
+Fusion pair (2016 networks),2016,0.6477,0.6375,0.6585,0.95,,,,
+SINaTRA-style pair (full inputs),2012,0.989,0.9871,0.9907,1.0,8807.0,,,
+SINaTRA-style pair (full inputs),2014,0.9911,0.9894,0.9927,1.0,7548.0,,,
+SINaTRA-style pair (full inputs),2016,0.9898,0.9878,0.9916,1.0,7119.0,,,
+SINaTRA-style pair (−SL counts),2012,0.9537,0.9493,0.958,0.95,8807.0,,,
+SINaTRA-style pair (−SL counts),2014,0.9712,0.9676,0.9745,1.0,7548.0,,,
+SINaTRA-style pair (−SL counts),2016,0.9707,0.9664,0.9743,1.0,7119.0,,,
+SINaTRA-style pair (topology+omics),2012,0.9297,0.9241,0.9352,1.0,8807.0,,,
+SINaTRA-style pair (topology+omics),2014,0.9576,0.953,0.962,1.0,7548.0,,,
+SINaTRA-style pair (topology+omics),2016,0.9578,0.953,0.9622,1.0,7119.0,,,
+"SINaTRA-style pair (topo, 2016 networks)",2012,0.7315,0.7226,0.7406,0.95,8807.0,,,
+"SINaTRA-style pair (topo, 2016 networks)",2014,0.7751,0.7657,0.7843,0.95,7548.0,,,
+"SINaTRA-style pair (topo, 2016 networks)",2016,0.7639,0.7543,0.7729,0.95,7119.0,,,
+PPI pair (STRING 2021) — all-gold twin,2012,0.8906,0.8841,0.8973,1.0,,,0.1271,0.0
+PPI pair (STRING 2021) — all-gold twin,2014,0.8849,0.8778,0.8913,1.0,,,0.0864,0.0
+PPI pair (STRING 2021) — all-gold twin,2016,0.8802,0.8731,0.8875,1.0,,,0.0914,0.0
+Fusion pair (current) — all-gold twin,2012,0.9655,0.962,0.9689,1.0,,,0.379,0.0
+Fusion pair (current) — all-gold twin,2014,0.9602,0.9562,0.9638,1.0,,,0.3226,0.0
+Fusion pair (current) — all-gold twin,2016,0.959,0.955,0.9627,1.0,,,0.3174,0.0
+CRISPR pair — all-gold twin,2012,0.95,0.9461,0.9537,1.0,,,0.389,0.0
+CRISPR pair — all-gold twin,2014,0.9419,0.9377,0.9461,1.0,,,0.3243,0.0
+CRISPR pair — all-gold twin,2016,0.9402,0.9356,0.9445,1.0,,,0.3303,0.0

@@ -1,0 +1,6 @@
+network,n_genes,auroc,ci_lo,ci_hi,auprc,p_at_20,future_gold_mean_degree,absorption,p_paired_bootstrap,degree_rank_stability
+STRING_v10_2016,10792.0,0.7101,0.6423,0.7714,0.0508,0.05,119.3,,,
+STRING_v11.5_2021,13450.0,0.7641,0.7076,0.8158,0.0745,0.15,220.5,,,
+STRING_v12_2023,13836.0,0.7544,0.6811,0.819,0.067,0.05,252.6,,,
+STRING_v10_2016 -> STRING_v11.5_2021,,,-0.0007,0.1098,,,,0.054,0.052,0.515
+STRING_v11.5_2021 -> STRING_v12_2023,,,-0.0704,0.0454,,,,-0.0098,0.745,0.877

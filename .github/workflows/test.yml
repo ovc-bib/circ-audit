@@ -29,7 +29,8 @@ jobs:
       - name: Run end-to-end tests
         run: |
           python test_e2e.py
+          python test_temporal.py
 
       - name: Run pytest with coverage
         run: |
-          pytest test_e2e.py -v --cov=circ_audit_tool --cov-report=term-missing
+          pytest test_e2e.py test_temporal.py -v --cov=circ_audit_tool --cov-report=term-missing
