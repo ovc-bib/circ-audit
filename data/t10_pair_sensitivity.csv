@@ -1,0 +1,9 @@
+analysis,condition,delta,ci_lo,ci_hi,p,n_test_pos,auroc,n_test_neg,absorption_delta
+pair absorption,PPI pair: STRING 2021 minus Hetionet 2016,0.0668,0.0551,0.078,0.0,7119,,,
+pair absorption,Fusion pair: current minus 2016 networks,-0.0061,-0.0153,0.0034,0.21,7119,,,
+positives >=2 pmids,PPI pair (STRING 2021) @2016,,,,,0,,,
+negative composition,"PPI pair (STRING 2021) @2016, studied negatives",,0.7523,0.7713,,7119,0.7619,3500.0,
+negative composition,"PPI pair (STRING 2021) @2016, validated (alleviating) negatives",,0.6386,0.6917,,7119,0.6637,525.0,
+channel B positives (BioGRID),PPI pair @2012,,0.6614,0.698,0.0,1623,0.6798,,-0.1299
+channel B positives (BioGRID),PPI pair @2014,,0.7435,0.7745,0.0,1384,0.7594,,-0.0783
+channel B positives (BioGRID),PPI pair @2016,,0.7579,0.7896,0.128,1017,0.7736,,-0.0115

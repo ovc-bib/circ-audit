@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "network": "BioGRID_2013",
+      "panel": "rich-8",
+      "auroc": 0.683,
+      "ci_lo": 0.622,
+      "ci_hi": 0.7415
+    },
+    {
+      "network": "BioGRID_2024",
+      "panel": "rich-8",
+      "auroc": 0.7321,
+      "ci_lo": 0.6684,
+      "ci_hi": 0.7928
+    },
+    {
+      "network": "Hetionet_2016",
+      "panel": "rich-8",
+      "auroc": 0.6599,
+      "ci_lo": 0.596,
+      "ci_hi": 0.7196
+    },
+    {
+      "network": "STRING_2021",
+      "panel": "rich-8",
+      "auroc": 0.7653,
+      "ci_lo": 0.7012,
+      "ci_hi": 0.8241
+    },
+    {
+      "network": "BioGRID_2013 \u2192 BioGRID_2024",
+      "panel": "rich-8 absorption",
+      "auroc": 0.0491,
+      "p_paired_bootstrap": 0.125
+    },
+    {
+      "network": "Hetionet_2016 \u2192 STRING_2021",
+      "panel": "rich-8 absorption",
+      "auroc": 0.1054,
+      "p_paired_bootstrap": 0.003
+    }
+  ],
+  "feature_rank_stability": {
+    "Hetionet_2016->STRING_2021": {
+      "degree_rank": 0.5127,
+      "ppr": 0.5271,
+      "bfs_prox": 0.3278,
+      "clustering": 0.1709,
+      "eigenvec": 0.4685,
+      "kcore": 0.5269,
+      "avg_nbr_deg": 0.0488,
+      "triangles": 0.4955
+    },
+    "BioGRID_2013->BioGRID_2024": {
+      "degree_rank": 0.7214,
+      "ppr": 0.7344,
+      "bfs_prox": 0.557,
+      "clustering": 0.3872,
+      "eigenvec": 0.79,
+      "kcore": 0.7363,
+      "avg_nbr_deg": 0.3535,
+      "triangles": 0.7519
+    }
+  },
+  "features": [
+    "degree_rank",
+    "ppr",
+    "bfs_prox",
+    "clustering",
+    "eigenvec",
+    "kcore",
+    "avg_nbr_deg",
+    "triangles"
+  ],
+  "elapsed_min": 4.1
+}

@@ -1,0 +1,7 @@
+network,panel,auroc,ci_lo,ci_hi,p_paired_bootstrap
+BioGRID_2013,rich-8,0.683,0.622,0.7415,
+BioGRID_2024,rich-8,0.7321,0.6684,0.7928,
+Hetionet_2016,rich-8,0.6599,0.596,0.7196,
+STRING_2021,rich-8,0.7653,0.7012,0.8241,
+BioGRID_2013 → BioGRID_2024,rich-8 absorption,0.0491,,,0.125
+Hetionet_2016 → STRING_2021,rich-8 absorption,0.1054,,,0.003

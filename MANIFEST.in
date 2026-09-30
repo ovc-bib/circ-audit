@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include CHANGELOG.md
+include pyproject.toml
+include test_e2e.py
+
+recursive-include circ_audit_tool *.py

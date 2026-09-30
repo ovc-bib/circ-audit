@@ -1,0 +1,5 @@
+channel,vintage_pair,absorption,ci_lo,ci_hi,p_paired_bootstrap,significant_0.05
+BioGRID physical,2015 → 2024,0.0569,-0.0037,0.1143,0.065,False
+BioGRID physical,2013 → 2024,0.0088,-0.0483,0.0633,0.767,False
+STRING-family,Hetionet 2016 → STRING 2021,0.0962,0.012,0.1764,0.022,True
+GO annotations,≤2016 → current,0.0216,-0.0311,0.0747,0.413,False
