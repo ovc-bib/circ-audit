@@ -837,7 +837,7 @@ def fig7():
         ax.text(0.1225, y + 0.03, sub, ha="center", fontsize=5.6,
                 color="#666666")
 
-    input_card(0.70, "model predictions", "per-gene scores  S(x)\n"
+    input_card(0.70, "model predictions", "per-gene / per-pair scores  S(x)\n"
                "feature table  X", PAL["navy"], "#E8EFF7")
     # mini feature-matrix grid
     rng = np.random.default_rng(3)
@@ -987,9 +987,10 @@ def fig7():
     rbox(ax, 0.015, 0.015, 0.975, 0.062, "#F5F5F5", "#CCCCCC", 0.8, r=0.008)
     ax.text(0.5, 0.046, "released with the paper", ha="center", fontsize=5.8,
             fontweight="bold", color="#777777")
-    ax.text(0.5, 0.028, "pip install circ-audit  ·  evidence-dated gold "
-            "standard  ·  snapshot rebuilders (BioGRID 2013/2015/2024, "
-            "Hetionet, STRING, dated GOA)  ·  per-gene scores  ·  MIT licence",
+    ax.text(0.5, 0.028, "pip install circ-audit  ·  dated gene + pair gold "
+            "standards  ·  snapshot rebuilders (BioGRID, Hetionet, STRING, "
+            "dated GOA)  ·  per-gene + per-pair scores  ·  result tables  ·  "
+            "public during review  ·  MIT licence",
             ha="center", fontsize=5.4, color="#888888")
 
     save(fig, "fig7_tool")
