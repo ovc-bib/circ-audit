@@ -46,7 +46,8 @@ def main():
     # 3. pools and result tables
     for f in ("t10_pools.csv", "t10_pair_leaderboard.csv",
               "t10_pair_sensitivity.csv", "t12_gat_pair.csv",
-              "t11_rich_network.csv", "t7_per_gene_scores.csv",
+              "t11_rich_network.csv", "t11_summary.json",
+              "t7_per_gene_scores.csv",
               "t1_prospective_leaderboard.csv"):
         src = f"{V11}/results/{f}"
         if os.path.exists(src):
