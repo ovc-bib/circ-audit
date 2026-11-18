@@ -110,13 +110,19 @@ excellent (6-7):
 
 - `data/` — the evidence-dated gene and pair gold standards, the negative
   pools, per-gene and per-pair scores, and the result table behind every
-  figure and table of the manuscript (36 CSV files + 1 JSON).
-- `analysis/` — the exact scripts that produced them (t1-t12, a/b/c series,
+  figure and table of the manuscript (36 CSV files + 1 JSON, plus the T13
+  original-pipeline GCATSL runs).
+- `analysis/` — the exact scripts that produced them (t1-t13, a/b/c series,
   figure generation and the number cross-check). They reference the original
   project layout through `tm_utils.V11`; set the `CIRCAUDIT_HOME`
   environment variable to relocate, and see the Data and code availability
   statement of the manuscript for the raw database releases the pipeline
   consumes.
+- `analysis/gcatsl/` — the R1-round execution of the authors' original
+  GCATSL pipeline (TensorFlow 1.13.1, pinned environment): the runner, the
+  two-line score-export patch, the converged-equivalent global-matrix
+  generator with its 1000-iteration verification, and the provenance
+  document `GCATSL_ENVIRONMENT.md`.
 
 ---
 

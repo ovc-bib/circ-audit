@@ -1,0 +1,15 @@
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/ cv=0 n=6375 train=15735 test=3933 edges=31470
+  converged at iteration 15 (delta=9.99e-16, 46s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/interaction_global_0.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/ cv=1 n=6375 train=15735 test=3933 edges=31470
+  converged at iteration 16 (delta=1.25e-16, 47s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/interaction_global_1.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/ cv=2 n=6375 train=15735 test=3933 edges=31470
+  converged at iteration 16 (delta=1.25e-16, 46s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/interaction_global_2.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/ cv=3 n=6375 train=15735 test=3933 edges=31470
+  converged at iteration 15 (delta=9.99e-16, 43s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/interaction_global_3.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/ cv=4 n=6375 train=15732 test=3936 edges=31464
+  converged at iteration 15 (delta=9.99e-16, 43s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/toy_run/interaction_global_4.txt

@@ -1,0 +1,8 @@
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2012_hetionet2016/ cv=0 n=6400 train=8695 test=8807 edges=17390
+  converged at iteration 15 (delta=4.44e-16, 43s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2012_hetionet2016/interaction_global_0.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2014_hetionet2016/ cv=0 n=6400 train=9954 test=7548 edges=19908
+  converged at iteration 15 (delta=5.00e-16, 43s)
+pregen_fast done: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2014_hetionet2016/interaction_global_0.txt
+pregen_fast: E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2016_hetionet2016/ cv=0 n=6400 train=10383 test=7119 edges=20766
+  converged at iteration 15 (delta=9.99e-16, 44s)

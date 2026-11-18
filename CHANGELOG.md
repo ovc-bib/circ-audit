@@ -5,6 +5,22 @@ All notable changes to CircAudit will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] — 2026-11-13
+
+### Added
+- T13 — execution of the authors' original GCATSL pipeline (Long et al.,
+  Bioinformatics 2021) under the temporal pair protocol: `analysis/
+  t13_gcatsl_inputs.py` (frozen 6,400-gene universe, dated adj/test splits,
+  per-vintage 128-d skip-gram node-feature rebuilds), `analysis/
+  t13_gcatsl_eval.py` (fixed-pool evaluation and paired absorption
+  contrasts), and `analysis/gcatsl/` (pinned-environment runner for the
+  released TensorFlow implementation, the two-line score-matrix export
+  patch `gcatsl_score_export.patch`, the converged-equivalent global-matrix
+  generator with its 1000-iteration verification, and the environment
+  provenance document `GCATSL_ENVIRONMENT.md`)
+- `data/t13_gcatsl_pair.csv`, `data/t13_universe.json` — the original-
+  implementation runs behind the new Table 2 rows and the universe manifest
+
 ## [0.2.0] — 2026-09-29
 
 ### Added

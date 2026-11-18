@@ -150,3 +150,6 @@ figures/*.svg
 figures/*.tiff
 results/*.csv
 results/*.json
+
+# GCATSL execution evidence: run logs are part of the provenance record
+!analysis/gcatsl/**/*.log

@@ -1,0 +1,24 @@
+--- gcatsl_src/train.py	2026-11-13 10:05:05.754680700 +0800
++++ gcatsl_fork/train.py	2026-11-13 10:43:17.865524700 +0800
+@@ -1,4 +1,5 @@
+ import time
++import os
+ import numpy as np
+ import tensorflow as tf
+ 
+@@ -144,8 +145,14 @@
+               ts_acc += acc_ts
+               ts_step += 1
+           print('Test loss:', ts_loss/ts_step, '; Test accuracy:', ts_acc/ts_step)
+-          
++
+           score_matrix = score_matrix.reshape((n,n))
++          # --- temporal-protocol adapter (R1 revision): save the full score
++          # matrix so evaluation can run on the fixed shared negative pools.
++          # This is the ONLY change relative to the authors' train.py. ---
++          np.save(os.path.join(args.output_dir,
++                               'score_matrix_' + str(cv) + '.npy'),
++                  score_matrix)
+           test_positive_samples = test_positive_sample(labels, test_arr)
+           test_negative_samples = test_negative_sample(labels,len(test_arr),neg_mask.reshape((n,n)))
+           test_labels, test_scores = ROC(score_matrix,labels, test_arr,test_negative_samples) 

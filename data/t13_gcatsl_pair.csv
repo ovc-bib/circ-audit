@@ -1,0 +1,13 @@
+model,cutoff,auroc,ci_lo,ci_hi,p_at_20,n_test_pos,p
+GCATSL original (hetionet2016),2012,0.5603,0.5458,0.5737,0.9,8807,
+GCATSL original (string2021),2012,0.4685,0.4507,0.4869,0.95,8807,
+GCATSL absorption (2021 minus 2016 vintage),2012,-0.0918,-0.1127,-0.0712,,8807,0.0
+GCATSL original (hetionet2016),2014,0.5894,0.5732,0.605,1.0,7548,
+GCATSL original (string2021),2014,0.587,0.5707,0.6029,1.0,7548,
+GCATSL absorption (2021 minus 2016 vintage),2014,-0.0024,-0.021,0.0164,,7548,0.821
+GCATSL original (hetionet2016),2016,0.5762,0.5603,0.5921,0.95,7119,
+GCATSL original (string2021),2016,0.5547,0.5364,0.5715,1.0,7119,
+GCATSL absorption (2021 minus 2016 vintage),2016,-0.0215,-0.0423,-0.0012,,7119,0.042
+GCATSL original CV-regime (hetionet2016),cv,0.9767,0.9705,0.9824,1.0,3500,
+GCATSL original CV-regime (string2021),cv,0.9766,0.9698,0.9827,1.0,3500,
+GCATSL CV vintage contrast (cur minus 2016),cv,-0.0,-0.0065,0.0064,,3500,0.994

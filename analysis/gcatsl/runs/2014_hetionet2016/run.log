@@ -1,0 +1,678 @@
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:30: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:167: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  method='lar', copy_X=True, eps=np.finfo(np.float).eps,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:284: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_Gram=True, verbose=0,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:1101: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:1127: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:1362: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:1602: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=None, eps=np.finfo(np.float).eps,
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\linear_model\least_angle.py:1738: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\sklearn\decomposition\online_lda.py:29: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  EPS = np.finfo(np.float).eps
+[run_gcatsl] src=gcatsl_fork input=E:/崔雷/博士/设计/ovc_project/circ_aware_bib/v11_timemachine/external/runs/2014_hetionet2016/ n=6400 epochs=600 folds=1
+cross_validation: 0
+----- Opt. hyperparams -----
+lr: 0.005
+l2_coef: 0.0005
+----- Archi. hyperparams -----
+nb. layers: 1
+nb. units per layer: [8]
+nb. attention heads: 2
+residual: False
+nonlinearity: <function elu at 0x000001B29CFEB798>
+model: <class 'models.gat.GAT'>
+WARNING:tensorflow:From E:\崔雷\博士\设计\ovc_project\circ_aware_bib\v11_timemachine\external\gcatsl_fork\utils\layers.py:9: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From E:\崔雷\博士\设计\ovc_project\circ_aware_bib\v11_timemachine\external\gcatsl_fork\utils\layers.py:18: conv1d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.conv1d instead.
+WARNING:tensorflow:From C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\ops\sparse_grad.py:281: calling sparse_reduce_sum (from tensorflow.python.ops.sparse_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From C:\Users\Administrator\miniconda3\envs\gcatsl\lib\site-packages\tensorflow\python\ops\sparse_grad.py:216: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2026-11-13 11:59:04.698141: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Epoch: 0001 | Training: loss = 0.02609, acc = 0.02287, time = 6.68396
+Epoch: 0002 | Training: loss = 0.02192, acc = 0.01927, time = 1.65043
+Epoch: 0003 | Training: loss = 0.02397, acc = 0.02174, time = 1.71863
+Epoch: 0004 | Training: loss = 0.01953, acc = 0.01758, time = 1.65161
+Epoch: 0005 | Training: loss = 0.01918, acc = 0.01739, time = 1.65024
+Epoch: 0006 | Training: loss = 0.01731, acc = 0.01558, time = 1.67397
+Epoch: 0007 | Training: loss = 0.01869, acc = 0.01696, time = 1.66074
+Epoch: 0008 | Training: loss = 0.01873, acc = 0.01696, time = 1.64530
+Epoch: 0009 | Training: loss = 0.01596, acc = 0.01415, time = 1.67834
+Epoch: 0010 | Training: loss = 0.01689, acc = 0.01504, time = 1.65431
+Epoch: 0011 | Training: loss = 0.01833, acc = 0.01646, time = 1.67016
+Epoch: 0012 | Training: loss = 0.01693, acc = 0.01505, time = 1.63901
+Epoch: 0013 | Training: loss = 0.01781, acc = 0.01593, time = 1.65657
+Epoch: 0014 | Training: loss = 0.01527, acc = 0.01341, time = 1.65837
+Epoch: 0015 | Training: loss = 0.01578, acc = 0.01395, time = 1.66967
+Epoch: 0016 | Training: loss = 0.01677, acc = 0.01497, time = 1.63822
+Epoch: 0017 | Training: loss = 0.01636, acc = 0.01459, time = 1.64214
+Epoch: 0018 | Training: loss = 0.01502, acc = 0.01327, time = 1.67348
+Epoch: 0019 | Training: loss = 0.01635, acc = 0.01462, time = 1.67134
+Epoch: 0020 | Training: loss = 0.01461, acc = 0.01289, time = 1.65717
+Epoch: 0021 | Training: loss = 0.01452, acc = 0.01281, time = 1.70203
+Epoch: 0022 | Training: loss = 0.01739, acc = 0.01568, time = 1.67366
+Epoch: 0023 | Training: loss = 0.01490, acc = 0.01320, time = 1.71164
+Epoch: 0024 | Training: loss = 0.01407, acc = 0.01237, time = 1.68658
+Epoch: 0025 | Training: loss = 0.01423, acc = 0.01253, time = 1.65831
+Epoch: 0026 | Training: loss = 0.01360, acc = 0.01190, time = 1.67009
+Epoch: 0027 | Training: loss = 0.01532, acc = 0.01362, time = 1.66216
+Epoch: 0028 | Training: loss = 0.01472, acc = 0.01303, time = 1.69507
+Epoch: 0029 | Training: loss = 0.01390, acc = 0.01221, time = 1.63891
+Epoch: 0030 | Training: loss = 0.01285, acc = 0.01117, time = 1.65838
+Epoch: 0031 | Training: loss = 0.01523, acc = 0.01355, time = 1.63512
+Epoch: 0032 | Training: loss = 0.01436, acc = 0.01270, time = 1.63179
+Epoch: 0033 | Training: loss = 0.01194, acc = 0.01028, time = 1.62274
+Epoch: 0034 | Training: loss = 0.01279, acc = 0.01113, time = 1.63099
+Epoch: 0035 | Training: loss = 0.01165, acc = 0.00999, time = 1.68538
+Epoch: 0036 | Training: loss = 0.01254, acc = 0.01088, time = 1.66642
+Epoch: 0037 | Training: loss = 0.01225, acc = 0.01060, time = 1.61657
+Epoch: 0038 | Training: loss = 0.01319, acc = 0.01154, time = 1.70431
+Epoch: 0039 | Training: loss = 0.01088, acc = 0.00923, time = 1.75982
+Epoch: 0040 | Training: loss = 0.01036, acc = 0.00871, time = 1.62041
+Epoch: 0041 | Training: loss = 0.01299, acc = 0.01134, time = 1.58819
+Epoch: 0042 | Training: loss = 0.01285, acc = 0.01120, time = 1.66262
+Epoch: 0043 | Training: loss = 0.01470, acc = 0.01305, time = 1.69481
+Epoch: 0044 | Training: loss = 0.00959, acc = 0.00795, time = 1.64035
+Epoch: 0045 | Training: loss = 0.01007, acc = 0.00843, time = 1.60998
+Epoch: 0046 | Training: loss = 0.01110, acc = 0.00946, time = 1.62438
+Epoch: 0047 | Training: loss = 0.01049, acc = 0.00885, time = 1.63792
+Epoch: 0048 | Training: loss = 0.01055, acc = 0.00892, time = 1.64642
+Epoch: 0049 | Training: loss = 0.01156, acc = 0.00993, time = 1.64910
+Epoch: 0050 | Training: loss = 0.01012, acc = 0.00850, time = 1.62285
+Epoch: 0051 | Training: loss = 0.01102, acc = 0.00939, time = 1.65475
+Epoch: 0052 | Training: loss = 0.00881, acc = 0.00719, time = 1.68516
+Epoch: 0053 | Training: loss = 0.01036, acc = 0.00874, time = 1.58527
+Epoch: 0054 | Training: loss = 0.00878, acc = 0.00716, time = 1.63283
+Epoch: 0055 | Training: loss = 0.00929, acc = 0.00767, time = 1.61217
+Epoch: 0056 | Training: loss = 0.00907, acc = 0.00746, time = 1.63608
+Epoch: 0057 | Training: loss = 0.00868, acc = 0.00706, time = 1.59622
+Epoch: 0058 | Training: loss = 0.00882, acc = 0.00721, time = 1.59804
+Epoch: 0059 | Training: loss = 0.01409, acc = 0.01248, time = 1.63841
+Epoch: 0060 | Training: loss = 0.01067, acc = 0.00906, time = 1.61662
+Epoch: 0061 | Training: loss = 0.00960, acc = 0.00799, time = 1.67186
+Epoch: 0062 | Training: loss = 0.01061, acc = 0.00901, time = 1.65700
+Epoch: 0063 | Training: loss = 0.00835, acc = 0.00675, time = 1.61258
+Epoch: 0064 | Training: loss = 0.00919, acc = 0.00760, time = 1.59398
+Epoch: 0065 | Training: loss = 0.01314, acc = 0.01155, time = 1.66011
+Epoch: 0066 | Training: loss = 0.00804, acc = 0.00645, time = 1.63522
+Epoch: 0067 | Training: loss = 0.01093, acc = 0.00934, time = 1.63613
+Epoch: 0068 | Training: loss = 0.00796, acc = 0.00637, time = 1.65832
+Epoch: 0069 | Training: loss = 0.00893, acc = 0.00735, time = 1.60146
+Epoch: 0070 | Training: loss = 0.00908, acc = 0.00751, time = 1.62951
+Epoch: 0071 | Training: loss = 0.00927, acc = 0.00769, time = 1.59810
+Epoch: 0072 | Training: loss = 0.00821, acc = 0.00663, time = 1.61095
+Epoch: 0073 | Training: loss = 0.00831, acc = 0.00674, time = 1.69598
+Epoch: 0074 | Training: loss = 0.00832, acc = 0.00675, time = 1.61966
+Epoch: 0075 | Training: loss = 0.00857, acc = 0.00700, time = 1.61845
+Epoch: 0076 | Training: loss = 0.00801, acc = 0.00644, time = 1.68625
+Epoch: 0077 | Training: loss = 0.00793, acc = 0.00636, time = 1.59377
+Epoch: 0078 | Training: loss = 0.00772, acc = 0.00615, time = 1.67315
+Epoch: 0079 | Training: loss = 0.00714, acc = 0.00557, time = 1.64796
+Epoch: 0080 | Training: loss = 0.00800, acc = 0.00643, time = 1.63064
+Epoch: 0081 | Training: loss = 0.00818, acc = 0.00661, time = 1.60758
+Epoch: 0082 | Training: loss = 0.01079, acc = 0.00923, time = 1.65535
+Epoch: 0083 | Training: loss = 0.00706, acc = 0.00550, time = 1.62630
+Epoch: 0084 | Training: loss = 0.00758, acc = 0.00602, time = 1.65054
+Epoch: 0085 | Training: loss = 0.00705, acc = 0.00550, time = 1.65518
+Epoch: 0086 | Training: loss = 0.00784, acc = 0.00629, time = 1.60740
+Epoch: 0087 | Training: loss = 0.00816, acc = 0.00661, time = 1.65656
+Epoch: 0088 | Training: loss = 0.00739, acc = 0.00584, time = 1.62178
+Epoch: 0089 | Training: loss = 0.00766, acc = 0.00612, time = 1.67133
+Epoch: 0090 | Training: loss = 0.00838, acc = 0.00684, time = 1.68246
+Epoch: 0091 | Training: loss = 0.00829, acc = 0.00675, time = 1.61166
+Epoch: 0092 | Training: loss = 0.00712, acc = 0.00559, time = 1.63105
+Epoch: 0093 | Training: loss = 0.00778, acc = 0.00625, time = 1.67081
+Epoch: 0094 | Training: loss = 0.00736, acc = 0.00584, time = 1.63189
+Epoch: 0095 | Training: loss = 0.00719, acc = 0.00567, time = 1.65069
+Epoch: 0096 | Training: loss = 0.00911, acc = 0.00760, time = 1.66893
+Epoch: 0097 | Training: loss = 0.00692, acc = 0.00540, time = 1.63860
+Epoch: 0098 | Training: loss = 0.00713, acc = 0.00562, time = 1.67192
+Epoch: 0099 | Training: loss = 0.00717, acc = 0.00566, time = 1.61176
+Epoch: 0100 | Training: loss = 0.00802, acc = 0.00651, time = 1.68121
+Epoch: 0101 | Training: loss = 0.00907, acc = 0.00756, time = 1.66610
+Epoch: 0102 | Training: loss = 0.00737, acc = 0.00586, time = 1.63458
+Epoch: 0103 | Training: loss = 0.00713, acc = 0.00563, time = 1.62873
+Epoch: 0104 | Training: loss = 0.00699, acc = 0.00549, time = 1.65443
+Epoch: 0105 | Training: loss = 0.00683, acc = 0.00533, time = 1.60778
+Epoch: 0106 | Training: loss = 0.00761, acc = 0.00612, time = 1.65837
+Epoch: 0107 | Training: loss = 0.00664, acc = 0.00514, time = 1.62273
+Epoch: 0108 | Training: loss = 0.00750, acc = 0.00601, time = 1.62194
+Epoch: 0109 | Training: loss = 0.00703, acc = 0.00555, time = 1.62417
+Epoch: 0110 | Training: loss = 0.00732, acc = 0.00584, time = 1.62640
+Epoch: 0111 | Training: loss = 0.00648, acc = 0.00500, time = 1.64692
+Epoch: 0112 | Training: loss = 0.00753, acc = 0.00605, time = 1.61795
+Epoch: 0113 | Training: loss = 0.00698, acc = 0.00551, time = 1.64512
+Epoch: 0114 | Training: loss = 0.00735, acc = 0.00588, time = 1.61502
+Epoch: 0115 | Training: loss = 0.00834, acc = 0.00687, time = 1.61150
+Epoch: 0116 | Training: loss = 0.00679, acc = 0.00533, time = 1.59757
+Epoch: 0117 | Training: loss = 0.00692, acc = 0.00546, time = 1.71126
+Epoch: 0118 | Training: loss = 0.00603, acc = 0.00457, time = 1.63680
+Epoch: 0119 | Training: loss = 0.00654, acc = 0.00509, time = 1.57030
+Epoch: 0120 | Training: loss = 0.00640, acc = 0.00495, time = 1.65765
+Epoch: 0121 | Training: loss = 0.00610, acc = 0.00465, time = 1.58248
+Epoch: 0122 | Training: loss = 0.00665, acc = 0.00520, time = 1.63194
+Epoch: 0123 | Training: loss = 0.00704, acc = 0.00559, time = 1.62118
+Epoch: 0124 | Training: loss = 0.00818, acc = 0.00673, time = 1.61787
+Epoch: 0125 | Training: loss = 0.00692, acc = 0.00547, time = 1.67968
+Epoch: 0126 | Training: loss = 0.00647, acc = 0.00503, time = 1.59530
+Epoch: 0127 | Training: loss = 0.00690, acc = 0.00546, time = 1.62984
+Epoch: 0128 | Training: loss = 0.00712, acc = 0.00567, time = 1.63168
+Epoch: 0129 | Training: loss = 0.00645, acc = 0.00500, time = 1.67274
+Epoch: 0130 | Training: loss = 0.00631, acc = 0.00487, time = 1.60424
+Epoch: 0131 | Training: loss = 0.00720, acc = 0.00576, time = 1.63910
+Epoch: 0132 | Training: loss = 0.00621, acc = 0.00477, time = 1.60747
+Epoch: 0133 | Training: loss = 0.00641, acc = 0.00497, time = 1.64280
+Epoch: 0134 | Training: loss = 0.00772, acc = 0.00628, time = 1.62714
+Epoch: 0135 | Training: loss = 0.00667, acc = 0.00523, time = 1.63131
+Epoch: 0136 | Training: loss = 0.00884, acc = 0.00741, time = 1.63922
+Epoch: 0137 | Training: loss = 0.00818, acc = 0.00675, time = 1.62856
+Epoch: 0138 | Training: loss = 0.00624, acc = 0.00482, time = 1.65021
+Epoch: 0139 | Training: loss = 0.00635, acc = 0.00493, time = 1.60951
+Epoch: 0140 | Training: loss = 0.00625, acc = 0.00484, time = 1.63886
+Epoch: 0141 | Training: loss = 0.00602, acc = 0.00460, time = 1.74230
+Epoch: 0142 | Training: loss = 0.00797, acc = 0.00656, time = 1.66505
+Epoch: 0143 | Training: loss = 0.00597, acc = 0.00456, time = 1.64146
+Epoch: 0144 | Training: loss = 0.00623, acc = 0.00482, time = 1.65661
+Epoch: 0145 | Training: loss = 0.00716, acc = 0.00576, time = 1.63163
+Epoch: 0146 | Training: loss = 0.00612, acc = 0.00473, time = 1.65524
+Epoch: 0147 | Training: loss = 0.00593, acc = 0.00454, time = 1.63975
+Epoch: 0148 | Training: loss = 0.00759, acc = 0.00620, time = 1.62232
+Epoch: 0149 | Training: loss = 0.00672, acc = 0.00533, time = 1.65009
+Epoch: 0150 | Training: loss = 0.00690, acc = 0.00552, time = 1.67286
+Epoch: 0151 | Training: loss = 0.00652, acc = 0.00514, time = 1.62095
+Epoch: 0152 | Training: loss = 0.00633, acc = 0.00495, time = 1.62132
+Epoch: 0153 | Training: loss = 0.00670, acc = 0.00532, time = 1.62488
+Epoch: 0154 | Training: loss = 0.00645, acc = 0.00508, time = 1.61479
+Epoch: 0155 | Training: loss = 0.00661, acc = 0.00523, time = 1.63861
+Epoch: 0156 | Training: loss = 0.00614, acc = 0.00478, time = 1.61906
+Epoch: 0157 | Training: loss = 0.00593, acc = 0.00457, time = 1.66686
+Epoch: 0158 | Training: loss = 0.00558, acc = 0.00421, time = 1.60320
+Epoch: 0159 | Training: loss = 0.00593, acc = 0.00457, time = 1.66073
+Epoch: 0160 | Training: loss = 0.00655, acc = 0.00519, time = 1.59830
+Epoch: 0161 | Training: loss = 0.00592, acc = 0.00457, time = 1.61957
+Epoch: 0162 | Training: loss = 0.00760, acc = 0.00624, time = 1.63640
+Epoch: 0163 | Training: loss = 0.00739, acc = 0.00604, time = 1.63779
+Epoch: 0164 | Training: loss = 0.00568, acc = 0.00433, time = 1.60693
+Epoch: 0165 | Training: loss = 0.00586, acc = 0.00451, time = 1.62303
+Epoch: 0166 | Training: loss = 0.01166, acc = 0.01031, time = 1.62279
+Epoch: 0167 | Training: loss = 0.00548, acc = 0.00413, time = 1.65430
+Epoch: 0168 | Training: loss = 0.00542, acc = 0.00408, time = 1.64109
+Epoch: 0169 | Training: loss = 0.00538, acc = 0.00404, time = 1.62709
+Epoch: 0170 | Training: loss = 0.00569, acc = 0.00435, time = 1.61623
+Epoch: 0171 | Training: loss = 0.00545, acc = 0.00411, time = 1.64910
+Epoch: 0172 | Training: loss = 0.00521, acc = 0.00387, time = 1.65068
+Epoch: 0173 | Training: loss = 0.00633, acc = 0.00500, time = 1.62597
+Epoch: 0174 | Training: loss = 0.00551, acc = 0.00417, time = 1.64970
+Epoch: 0175 | Training: loss = 0.00755, acc = 0.00622, time = 1.64555
+Epoch: 0176 | Training: loss = 0.00565, acc = 0.00432, time = 1.66246
+Epoch: 0177 | Training: loss = 0.00616, acc = 0.00483, time = 1.63019
+Epoch: 0178 | Training: loss = 0.00524, acc = 0.00392, time = 1.62631
+Epoch: 0179 | Training: loss = 0.00523, acc = 0.00391, time = 1.60688
+Epoch: 0180 | Training: loss = 0.00542, acc = 0.00410, time = 1.60890
+Epoch: 0181 | Training: loss = 0.00643, acc = 0.00511, time = 1.62165
+Epoch: 0182 | Training: loss = 0.00551, acc = 0.00420, time = 1.64256
+Epoch: 0183 | Training: loss = 0.00682, acc = 0.00551, time = 1.66710
+Epoch: 0184 | Training: loss = 0.00537, acc = 0.00406, time = 1.64739
+Epoch: 0185 | Training: loss = 0.00852, acc = 0.00721, time = 1.62446
+Epoch: 0186 | Training: loss = 0.00491, acc = 0.00361, time = 1.64701
+Epoch: 0187 | Training: loss = 0.00520, acc = 0.00389, time = 1.64341
+Epoch: 0188 | Training: loss = 0.00571, acc = 0.00440, time = 1.61264
+Epoch: 0189 | Training: loss = 0.00541, acc = 0.00410, time = 1.63006
+Epoch: 0190 | Training: loss = 0.00668, acc = 0.00537, time = 1.70595
+Epoch: 0191 | Training: loss = 0.00574, acc = 0.00443, time = 1.59471
+Epoch: 0192 | Training: loss = 0.00524, acc = 0.00394, time = 1.64481
+Epoch: 0193 | Training: loss = 0.00649, acc = 0.00519, time = 1.64906
+Epoch: 0194 | Training: loss = 0.00546, acc = 0.00416, time = 1.63079
+Epoch: 0195 | Training: loss = 0.00637, acc = 0.00507, time = 1.62765
+Epoch: 0196 | Training: loss = 0.00605, acc = 0.00476, time = 1.64228
+Epoch: 0197 | Training: loss = 0.00618, acc = 0.00488, time = 1.63486
+Epoch: 0198 | Training: loss = 0.00602, acc = 0.00473, time = 1.60772
+Epoch: 0199 | Training: loss = 0.00574, acc = 0.00445, time = 1.61130
+Epoch: 0200 | Training: loss = 0.00607, acc = 0.00478, time = 1.60759
+Epoch: 0201 | Training: loss = 0.00578, acc = 0.00450, time = 1.61503
+Epoch: 0202 | Training: loss = 0.00519, acc = 0.00391, time = 1.60108
+Epoch: 0203 | Training: loss = 0.00868, acc = 0.00740, time = 1.63449
+Epoch: 0204 | Training: loss = 0.00542, acc = 0.00415, time = 1.63682
+Epoch: 0205 | Training: loss = 0.00508, acc = 0.00381, time = 1.62775
+Epoch: 0206 | Training: loss = 0.00572, acc = 0.00446, time = 1.66638
+Epoch: 0207 | Training: loss = 0.00628, acc = 0.00502, time = 1.59170
+Epoch: 0208 | Training: loss = 0.00525, acc = 0.00399, time = 1.65659
+Epoch: 0209 | Training: loss = 0.00507, acc = 0.00381, time = 1.60338
+Epoch: 0210 | Training: loss = 0.00603, acc = 0.00478, time = 1.62150
+Epoch: 0211 | Training: loss = 0.00827, acc = 0.00702, time = 1.65467
+Epoch: 0212 | Training: loss = 0.00992, acc = 0.00867, time = 1.60983
+Epoch: 0213 | Training: loss = 0.00551, acc = 0.00427, time = 1.65164
+Epoch: 0214 | Training: loss = 0.00501, acc = 0.00377, time = 1.62071
+Epoch: 0215 | Training: loss = 0.00550, acc = 0.00427, time = 1.62405
+Epoch: 0216 | Training: loss = 0.00778, acc = 0.00654, time = 1.64574
+Epoch: 0217 | Training: loss = 0.00632, acc = 0.00508, time = 1.64620
+Epoch: 0218 | Training: loss = 0.00520, acc = 0.00397, time = 1.64739
+Epoch: 0219 | Training: loss = 0.00557, acc = 0.00435, time = 1.60820
+Epoch: 0220 | Training: loss = 0.00493, acc = 0.00371, time = 1.65315
+Epoch: 0221 | Training: loss = 0.00502, acc = 0.00379, time = 1.68273
+Epoch: 0222 | Training: loss = 0.00734, acc = 0.00611, time = 1.60314
+Epoch: 0223 | Training: loss = 0.00536, acc = 0.00413, time = 1.63728
+Epoch: 0224 | Training: loss = 0.00520, acc = 0.00397, time = 1.59901
+Epoch: 0225 | Training: loss = 0.00558, acc = 0.00436, time = 1.64960
+Epoch: 0226 | Training: loss = 0.00534, acc = 0.00412, time = 1.62036
+Epoch: 0227 | Training: loss = 0.00588, acc = 0.00466, time = 1.64145
+Epoch: 0228 | Training: loss = 0.00579, acc = 0.00457, time = 1.61892
+Epoch: 0229 | Training: loss = 0.00769, acc = 0.00648, time = 1.64133
+Epoch: 0230 | Training: loss = 0.00633, acc = 0.00512, time = 1.63565
+Epoch: 0231 | Training: loss = 0.00562, acc = 0.00441, time = 1.65772
+Epoch: 0232 | Training: loss = 0.00630, acc = 0.00509, time = 1.62599
+Epoch: 0233 | Training: loss = 0.00531, acc = 0.00411, time = 1.64021
+Epoch: 0234 | Training: loss = 0.00568, acc = 0.00448, time = 1.62895
+Epoch: 0235 | Training: loss = 0.00567, acc = 0.00447, time = 1.59364
+Epoch: 0236 | Training: loss = 0.00558, acc = 0.00438, time = 1.63794
+Epoch: 0237 | Training: loss = 0.00557, acc = 0.00437, time = 1.60208
+Epoch: 0238 | Training: loss = 0.00521, acc = 0.00401, time = 1.59785
+Epoch: 0239 | Training: loss = 0.00586, acc = 0.00467, time = 1.64741
+Epoch: 0240 | Training: loss = 0.00693, acc = 0.00574, time = 1.64182
+Epoch: 0241 | Training: loss = 0.00493, acc = 0.00375, time = 1.62279
+Epoch: 0242 | Training: loss = 0.00574, acc = 0.00456, time = 1.62165
+Epoch: 0243 | Training: loss = 0.00667, acc = 0.00549, time = 1.67038
+Epoch: 0244 | Training: loss = 0.00548, acc = 0.00430, time = 1.62698
+Epoch: 0245 | Training: loss = 0.00501, acc = 0.00383, time = 1.59601
+Epoch: 0246 | Training: loss = 0.00493, acc = 0.00376, time = 1.65031
+Epoch: 0247 | Training: loss = 0.00526, acc = 0.00408, time = 1.60076
+Epoch: 0248 | Training: loss = 0.00519, acc = 0.00402, time = 1.65988
+Epoch: 0249 | Training: loss = 0.00534, acc = 0.00417, time = 1.62107
+Epoch: 0250 | Training: loss = 0.00486, acc = 0.00370, time = 1.59883
+Epoch: 0251 | Training: loss = 0.01209, acc = 0.01093, time = 1.68306
+Epoch: 0252 | Training: loss = 0.00481, acc = 0.00365, time = 1.58513
+Epoch: 0253 | Training: loss = 0.00616, acc = 0.00500, time = 1.65619
+Epoch: 0254 | Training: loss = 0.00509, acc = 0.00393, time = 1.63606
+Epoch: 0255 | Training: loss = 0.00491, acc = 0.00375, time = 1.57486
+Epoch: 0256 | Training: loss = 0.00509, acc = 0.00393, time = 1.62100
+Epoch: 0257 | Training: loss = 0.00480, acc = 0.00364, time = 1.58733
+Epoch: 0258 | Training: loss = 0.00529, acc = 0.00413, time = 1.60563
+Epoch: 0259 | Training: loss = 0.00490, acc = 0.00374, time = 1.63701
+Epoch: 0260 | Training: loss = 0.00536, acc = 0.00420, time = 1.59560
+Epoch: 0261 | Training: loss = 0.00467, acc = 0.00351, time = 1.61861
+Epoch: 0262 | Training: loss = 0.00512, acc = 0.00397, time = 1.59980
+Epoch: 0263 | Training: loss = 0.00483, acc = 0.00368, time = 1.64913
+Epoch: 0264 | Training: loss = 0.00540, acc = 0.00426, time = 1.61870
+Epoch: 0265 | Training: loss = 0.00976, acc = 0.00862, time = 1.62528
+Epoch: 0266 | Training: loss = 0.00517, acc = 0.00403, time = 1.60147
+Epoch: 0267 | Training: loss = 0.00502, acc = 0.00389, time = 1.64769
+Epoch: 0268 | Training: loss = 0.00502, acc = 0.00389, time = 1.60102
+Epoch: 0269 | Training: loss = 0.00473, acc = 0.00360, time = 1.63782
+Epoch: 0270 | Training: loss = 0.00518, acc = 0.00405, time = 1.59783
+Epoch: 0271 | Training: loss = 0.00452, acc = 0.00339, time = 1.64913
+Epoch: 0272 | Training: loss = 0.00511, acc = 0.00399, time = 1.58833
+Epoch: 0273 | Training: loss = 0.00432, acc = 0.00320, time = 1.60133
+Epoch: 0274 | Training: loss = 0.00545, acc = 0.00433, time = 1.62858
+Epoch: 0275 | Training: loss = 0.00617, acc = 0.00506, time = 1.61090
+Epoch: 0276 | Training: loss = 0.00457, acc = 0.00346, time = 1.63857
+Epoch: 0277 | Training: loss = 0.00461, acc = 0.00350, time = 1.60884
+Epoch: 0278 | Training: loss = 0.00491, acc = 0.00380, time = 1.54760
+Epoch: 0279 | Training: loss = 0.00463, acc = 0.00353, time = 1.64437
+Epoch: 0280 | Training: loss = 0.00495, acc = 0.00384, time = 1.58939
+Epoch: 0281 | Training: loss = 0.00864, acc = 0.00753, time = 1.62155
+Epoch: 0282 | Training: loss = 0.00491, acc = 0.00380, time = 1.65880
+Epoch: 0283 | Training: loss = 0.00441, acc = 0.00330, time = 1.61518
+Epoch: 0284 | Training: loss = 0.00603, acc = 0.00493, time = 1.62596
+Epoch: 0285 | Training: loss = 0.00763, acc = 0.00653, time = 1.62407
+Epoch: 0286 | Training: loss = 0.00466, acc = 0.00356, time = 1.62609
+Epoch: 0287 | Training: loss = 0.00526, acc = 0.00415, time = 1.59477
+Epoch: 0288 | Training: loss = 0.00550, acc = 0.00439, time = 1.63412
+Epoch: 0289 | Training: loss = 0.00517, acc = 0.00406, time = 1.60195
+Epoch: 0290 | Training: loss = 0.00494, acc = 0.00383, time = 1.62371
+Epoch: 0291 | Training: loss = 0.00533, acc = 0.00422, time = 1.59679
+Epoch: 0292 | Training: loss = 0.00554, acc = 0.00443, time = 1.61662
+Epoch: 0293 | Training: loss = 0.00534, acc = 0.00423, time = 1.61240
+Epoch: 0294 | Training: loss = 0.00508, acc = 0.00397, time = 1.66497
+Epoch: 0295 | Training: loss = 0.00532, acc = 0.00422, time = 1.62246
+Epoch: 0296 | Training: loss = 0.00538, acc = 0.00428, time = 1.61748
+Epoch: 0297 | Training: loss = 0.00577, acc = 0.00468, time = 1.63046
+Epoch: 0298 | Training: loss = 0.00613, acc = 0.00504, time = 1.60045
+Epoch: 0299 | Training: loss = 0.00524, acc = 0.00415, time = 1.67121
+Epoch: 0300 | Training: loss = 0.00491, acc = 0.00383, time = 1.75483
+Epoch: 0301 | Training: loss = 0.00559, acc = 0.00450, time = 1.63364
+Epoch: 0302 | Training: loss = 0.00477, acc = 0.00369, time = 1.58825
+Epoch: 0303 | Training: loss = 0.00499, acc = 0.00391, time = 1.63918
+Epoch: 0304 | Training: loss = 0.00516, acc = 0.00408, time = 1.63405
+Epoch: 0305 | Training: loss = 0.00570, acc = 0.00463, time = 1.60413
+Epoch: 0306 | Training: loss = 0.00507, acc = 0.00400, time = 1.64404
+Epoch: 0307 | Training: loss = 0.00470, acc = 0.00364, time = 1.66508
+Epoch: 0308 | Training: loss = 0.00497, acc = 0.00391, time = 1.64341
+Epoch: 0309 | Training: loss = 0.00721, acc = 0.00615, time = 1.57273
+Epoch: 0310 | Training: loss = 0.00448, acc = 0.00343, time = 1.66362
+Epoch: 0311 | Training: loss = 0.00522, acc = 0.00416, time = 1.62368
+Epoch: 0312 | Training: loss = 0.00805, acc = 0.00700, time = 1.62005
+Epoch: 0313 | Training: loss = 0.00460, acc = 0.00355, time = 1.66395
+Epoch: 0314 | Training: loss = 0.00471, acc = 0.00367, time = 1.61359
+Epoch: 0315 | Training: loss = 0.00494, acc = 0.00389, time = 1.64112
+Epoch: 0316 | Training: loss = 0.00492, acc = 0.00388, time = 1.60773
+Epoch: 0317 | Training: loss = 0.00537, acc = 0.00433, time = 1.61856
+Epoch: 0318 | Training: loss = 0.00462, acc = 0.00358, time = 1.62470
+Epoch: 0319 | Training: loss = 0.00481, acc = 0.00377, time = 1.60261
+Epoch: 0320 | Training: loss = 0.00500, acc = 0.00397, time = 1.66462
+Epoch: 0321 | Training: loss = 0.00484, acc = 0.00381, time = 1.63753
+Epoch: 0322 | Training: loss = 0.00459, acc = 0.00356, time = 1.63690
+Epoch: 0323 | Training: loss = 0.00439, acc = 0.00336, time = 1.65454
+Epoch: 0324 | Training: loss = 0.00446, acc = 0.00343, time = 1.62532
+Epoch: 0325 | Training: loss = 0.00443, acc = 0.00341, time = 1.64404
+Epoch: 0326 | Training: loss = 0.00430, acc = 0.00328, time = 1.60383
+Epoch: 0327 | Training: loss = 0.00399, acc = 0.00297, time = 1.61502
+Epoch: 0328 | Training: loss = 0.00411, acc = 0.00309, time = 1.62943
+Epoch: 0329 | Training: loss = 0.00523, acc = 0.00422, time = 1.60466
+Epoch: 0330 | Training: loss = 0.00390, acc = 0.00289, time = 1.61865
+Epoch: 0331 | Training: loss = 0.00404, acc = 0.00303, time = 1.60216
+Epoch: 0332 | Training: loss = 0.00409, acc = 0.00308, time = 1.65604
+Epoch: 0333 | Training: loss = 0.00436, acc = 0.00335, time = 1.68123
+Epoch: 0334 | Training: loss = 0.00439, acc = 0.00338, time = 1.59273
+Epoch: 0335 | Training: loss = 0.00627, acc = 0.00526, time = 1.61475
+Epoch: 0336 | Training: loss = 0.00426, acc = 0.00326, time = 1.62353
+Epoch: 0337 | Training: loss = 0.00450, acc = 0.00350, time = 1.67289
+Epoch: 0338 | Training: loss = 0.00696, acc = 0.00595, time = 1.63171
+Epoch: 0339 | Training: loss = 0.00658, acc = 0.00557, time = 1.63780
+Epoch: 0340 | Training: loss = 0.00436, acc = 0.00335, time = 1.62311
+Epoch: 0341 | Training: loss = 0.00445, acc = 0.00344, time = 1.63974
+Epoch: 0342 | Training: loss = 0.00416, acc = 0.00316, time = 1.64681
+Epoch: 0343 | Training: loss = 0.00448, acc = 0.00347, time = 1.61741
+Epoch: 0344 | Training: loss = 0.00461, acc = 0.00360, time = 1.61035
+Epoch: 0345 | Training: loss = 0.00413, acc = 0.00312, time = 1.61099
+Epoch: 0346 | Training: loss = 0.00793, acc = 0.00693, time = 1.60416
+Epoch: 0347 | Training: loss = 0.00422, acc = 0.00322, time = 1.60939
+Epoch: 0348 | Training: loss = 0.00476, acc = 0.00375, time = 1.59115
+Epoch: 0349 | Training: loss = 0.00439, acc = 0.00338, time = 1.66978
+Epoch: 0350 | Training: loss = 0.00469, acc = 0.00368, time = 1.63008
+Epoch: 0351 | Training: loss = 0.00504, acc = 0.00403, time = 1.62782
+Epoch: 0352 | Training: loss = 0.00470, acc = 0.00369, time = 1.61819
+Epoch: 0353 | Training: loss = 0.00516, acc = 0.00415, time = 1.64362
+Epoch: 0354 | Training: loss = 0.00497, acc = 0.00396, time = 1.60841
+Epoch: 0355 | Training: loss = 0.00480, acc = 0.00379, time = 1.65427
+Epoch: 0356 | Training: loss = 0.00482, acc = 0.00381, time = 1.60034
+Epoch: 0357 | Training: loss = 0.00472, acc = 0.00372, time = 1.60995
+Epoch: 0358 | Training: loss = 0.00448, acc = 0.00348, time = 1.61086
+Epoch: 0359 | Training: loss = 0.00458, acc = 0.00358, time = 1.64102
+Epoch: 0360 | Training: loss = 0.00446, acc = 0.00347, time = 1.63932
+Epoch: 0361 | Training: loss = 0.00417, acc = 0.00318, time = 1.60861
+Epoch: 0362 | Training: loss = 0.00455, acc = 0.00356, time = 1.67775
+Epoch: 0363 | Training: loss = 0.00397, acc = 0.00298, time = 1.65391
+Epoch: 0364 | Training: loss = 0.00502, acc = 0.00403, time = 1.61840
+Epoch: 0365 | Training: loss = 0.00403, acc = 0.00305, time = 1.58918
+Epoch: 0366 | Training: loss = 0.00633, acc = 0.00535, time = 1.65080
+Epoch: 0367 | Training: loss = 0.00419, acc = 0.00321, time = 1.64124
+Epoch: 0368 | Training: loss = 0.00393, acc = 0.00296, time = 1.62676
+Epoch: 0369 | Training: loss = 0.00398, acc = 0.00301, time = 1.67014
+Epoch: 0370 | Training: loss = 0.00468, acc = 0.00372, time = 1.65247
+Epoch: 0371 | Training: loss = 0.00403, acc = 0.00307, time = 1.63972
+Epoch: 0372 | Training: loss = 0.00465, acc = 0.00369, time = 1.63482
+Epoch: 0373 | Training: loss = 0.00415, acc = 0.00319, time = 1.62003
+Epoch: 0374 | Training: loss = 0.00394, acc = 0.00298, time = 1.62920
+Epoch: 0375 | Training: loss = 0.00431, acc = 0.00335, time = 1.58555
+Epoch: 0376 | Training: loss = 0.00380, acc = 0.00284, time = 1.62912
+Epoch: 0377 | Training: loss = 0.00508, acc = 0.00413, time = 1.62347
+Epoch: 0378 | Training: loss = 0.00380, acc = 0.00285, time = 1.63642
+Epoch: 0379 | Training: loss = 0.00601, acc = 0.00506, time = 1.62901
+Epoch: 0380 | Training: loss = 0.00449, acc = 0.00354, time = 1.64426
+Epoch: 0381 | Training: loss = 0.00464, acc = 0.00368, time = 1.58689
+Epoch: 0382 | Training: loss = 0.00436, acc = 0.00340, time = 1.65117
+Epoch: 0383 | Training: loss = 0.00441, acc = 0.00345, time = 1.60311
+Epoch: 0384 | Training: loss = 0.00450, acc = 0.00354, time = 1.65125
+Epoch: 0385 | Training: loss = 0.00454, acc = 0.00358, time = 1.64621
+Epoch: 0386 | Training: loss = 0.00458, acc = 0.00362, time = 1.60581
+Epoch: 0387 | Training: loss = 0.00466, acc = 0.00370, time = 1.62720
+Epoch: 0388 | Training: loss = 0.00405, acc = 0.00308, time = 1.61912
+Epoch: 0389 | Training: loss = 0.00446, acc = 0.00350, time = 1.64335
+Epoch: 0390 | Training: loss = 0.00438, acc = 0.00342, time = 1.62083
+Epoch: 0391 | Training: loss = 0.00450, acc = 0.00354, time = 1.64973
+Epoch: 0392 | Training: loss = 0.00401, acc = 0.00305, time = 1.64226
+Epoch: 0393 | Training: loss = 0.00437, acc = 0.00342, time = 1.62307
+Epoch: 0394 | Training: loss = 0.00443, acc = 0.00348, time = 1.64554
+Epoch: 0395 | Training: loss = 0.00402, acc = 0.00306, time = 1.61008
+Epoch: 0396 | Training: loss = 0.00528, acc = 0.00433, time = 1.66482
+Epoch: 0397 | Training: loss = 0.00478, acc = 0.00383, time = 1.67390
+Epoch: 0398 | Training: loss = 0.00503, acc = 0.00409, time = 1.66748
+Epoch: 0399 | Training: loss = 0.00573, acc = 0.00479, time = 1.62651
+Epoch: 0400 | Training: loss = 0.00420, acc = 0.00326, time = 1.67766
+Epoch: 0401 | Training: loss = 0.00423, acc = 0.00329, time = 1.60725
+Epoch: 0402 | Training: loss = 0.00912, acc = 0.00819, time = 1.65033
+Epoch: 0403 | Training: loss = 0.00452, acc = 0.00359, time = 1.59079
+Epoch: 0404 | Training: loss = 0.00468, acc = 0.00375, time = 1.58728
+Epoch: 0405 | Training: loss = 0.00475, acc = 0.00383, time = 1.61459
+Epoch: 0406 | Training: loss = 0.00529, acc = 0.00436, time = 1.61694
+Epoch: 0407 | Training: loss = 0.00460, acc = 0.00368, time = 1.58906
+Epoch: 0408 | Training: loss = 0.00549, acc = 0.00456, time = 1.64841
+Epoch: 0409 | Training: loss = 0.00500, acc = 0.00408, time = 1.68279
+Epoch: 0410 | Training: loss = 0.00811, acc = 0.00719, time = 1.61920
+Epoch: 0411 | Training: loss = 0.00478, acc = 0.00386, time = 1.62948
+Epoch: 0412 | Training: loss = 0.00468, acc = 0.00376, time = 1.64221
+Epoch: 0413 | Training: loss = 0.00498, acc = 0.00406, time = 1.58343
+Epoch: 0414 | Training: loss = 0.00622, acc = 0.00530, time = 1.61633
+Epoch: 0415 | Training: loss = 0.00488, acc = 0.00396, time = 1.60344
+Epoch: 0416 | Training: loss = 0.00542, acc = 0.00451, time = 1.63643
+Epoch: 0417 | Training: loss = 0.00527, acc = 0.00435, time = 1.63214
+Epoch: 0418 | Training: loss = 0.00442, acc = 0.00350, time = 1.62848
+Epoch: 0419 | Training: loss = 0.00481, acc = 0.00389, time = 1.63223
+Epoch: 0420 | Training: loss = 0.00458, acc = 0.00367, time = 1.63892
+Epoch: 0421 | Training: loss = 0.00468, acc = 0.00377, time = 1.61785
+Epoch: 0422 | Training: loss = 0.00449, acc = 0.00358, time = 1.58183
+Epoch: 0423 | Training: loss = 0.00428, acc = 0.00338, time = 1.63848
+Epoch: 0424 | Training: loss = 0.00478, acc = 0.00388, time = 1.63863
+Epoch: 0425 | Training: loss = 0.00471, acc = 0.00382, time = 1.59805
+Epoch: 0426 | Training: loss = 0.00367, acc = 0.00278, time = 1.65923
+Epoch: 0427 | Training: loss = 0.00448, acc = 0.00359, time = 1.65461
+Epoch: 0428 | Training: loss = 0.00458, acc = 0.00369, time = 1.63094
+Epoch: 0429 | Training: loss = 0.00434, acc = 0.00345, time = 1.57520
+Epoch: 0430 | Training: loss = 0.00408, acc = 0.00320, time = 1.61679
+Epoch: 0431 | Training: loss = 0.00413, acc = 0.00325, time = 1.64873
+Epoch: 0432 | Training: loss = 0.00510, acc = 0.00422, time = 1.57668
+Epoch: 0433 | Training: loss = 0.00385, acc = 0.00297, time = 1.59473
+Epoch: 0434 | Training: loss = 0.00894, acc = 0.00806, time = 1.64636
+Epoch: 0435 | Training: loss = 0.00566, acc = 0.00479, time = 1.58742
+Epoch: 0436 | Training: loss = 0.00472, acc = 0.00385, time = 1.61351
+Epoch: 0437 | Training: loss = 0.00477, acc = 0.00390, time = 1.61586
+Epoch: 0438 | Training: loss = 0.00371, acc = 0.00285, time = 1.57725
+Epoch: 0439 | Training: loss = 0.00438, acc = 0.00352, time = 1.62236
+Epoch: 0440 | Training: loss = 0.00508, acc = 0.00422, time = 1.60176
+Epoch: 0441 | Training: loss = 0.00391, acc = 0.00305, time = 1.61584
+Epoch: 0442 | Training: loss = 0.00421, acc = 0.00335, time = 1.63851
+Epoch: 0443 | Training: loss = 0.00478, acc = 0.00392, time = 1.56582
+Epoch: 0444 | Training: loss = 0.00634, acc = 0.00548, time = 1.58342
+Epoch: 0445 | Training: loss = 0.00432, acc = 0.00346, time = 1.62511
+Epoch: 0446 | Training: loss = 0.00494, acc = 0.00408, time = 1.64488
+Epoch: 0447 | Training: loss = 0.00466, acc = 0.00380, time = 1.60321
+Epoch: 0448 | Training: loss = 0.00488, acc = 0.00402, time = 1.66420
+Epoch: 0449 | Training: loss = 0.00494, acc = 0.00408, time = 1.57522
+Epoch: 0450 | Training: loss = 0.00499, acc = 0.00413, time = 1.62895
+Epoch: 0451 | Training: loss = 0.00402, acc = 0.00317, time = 1.60977
+Epoch: 0452 | Training: loss = 0.00798, acc = 0.00712, time = 1.63289
+Epoch: 0453 | Training: loss = 0.00472, acc = 0.00386, time = 1.62769
+Epoch: 0454 | Training: loss = 0.00484, acc = 0.00398, time = 1.59544
+Epoch: 0455 | Training: loss = 0.00441, acc = 0.00355, time = 1.61582
+Epoch: 0456 | Training: loss = 0.00409, acc = 0.00324, time = 1.58655
+Epoch: 0457 | Training: loss = 0.00473, acc = 0.00388, time = 1.62417
+Epoch: 0458 | Training: loss = 0.00454, acc = 0.00369, time = 1.60346
+Epoch: 0459 | Training: loss = 0.00476, acc = 0.00390, time = 1.60623
+Epoch: 0460 | Training: loss = 0.00424, acc = 0.00339, time = 1.65070
+Epoch: 0461 | Training: loss = 0.00434, acc = 0.00349, time = 1.65131
+Epoch: 0462 | Training: loss = 0.00474, acc = 0.00389, time = 1.65503
+Epoch: 0463 | Training: loss = 0.00425, acc = 0.00340, time = 1.63374
+Epoch: 0464 | Training: loss = 0.00395, acc = 0.00310, time = 1.64416
+Epoch: 0465 | Training: loss = 0.00439, acc = 0.00354, time = 1.61261
+Epoch: 0466 | Training: loss = 0.00431, acc = 0.00346, time = 1.62350
+Epoch: 0467 | Training: loss = 0.00372, acc = 0.00288, time = 1.62008
+Epoch: 0468 | Training: loss = 0.00459, acc = 0.00375, time = 1.62785
+Epoch: 0469 | Training: loss = 0.00397, acc = 0.00313, time = 1.68782
+Epoch: 0470 | Training: loss = 0.00385, acc = 0.00301, time = 1.59819
+Epoch: 0471 | Training: loss = 0.00422, acc = 0.00339, time = 1.68183
+Epoch: 0472 | Training: loss = 0.00421, acc = 0.00338, time = 1.58575
+Epoch: 0473 | Training: loss = 0.00445, acc = 0.00362, time = 1.62087
+Epoch: 0474 | Training: loss = 0.00454, acc = 0.00370, time = 1.61830
+Epoch: 0475 | Training: loss = 0.00397, acc = 0.00313, time = 1.65254
+Epoch: 0476 | Training: loss = 0.00451, acc = 0.00367, time = 1.65614
+Epoch: 0477 | Training: loss = 0.00429, acc = 0.00346, time = 1.65970
+Epoch: 0478 | Training: loss = 0.00452, acc = 0.00369, time = 1.64410
+Epoch: 0479 | Training: loss = 0.00420, acc = 0.00337, time = 1.68066
+Epoch: 0480 | Training: loss = 0.00453, acc = 0.00370, time = 1.65143
+Epoch: 0481 | Training: loss = 0.00626, acc = 0.00543, time = 1.65863
+Epoch: 0482 | Training: loss = 0.00444, acc = 0.00361, time = 1.67693
+Epoch: 0483 | Training: loss = 0.00410, acc = 0.00327, time = 1.72581
+Epoch: 0484 | Training: loss = 0.00443, acc = 0.00360, time = 1.65804
+Epoch: 0485 | Training: loss = 0.00659, acc = 0.00575, time = 1.64253
+Epoch: 0486 | Training: loss = 0.00436, acc = 0.00353, time = 1.68105
+Epoch: 0487 | Training: loss = 0.00431, acc = 0.00348, time = 1.62994
+Epoch: 0488 | Training: loss = 0.00403, acc = 0.00319, time = 1.66217
+Epoch: 0489 | Training: loss = 0.00441, acc = 0.00357, time = 1.63602
+Epoch: 0490 | Training: loss = 0.00398, acc = 0.00314, time = 1.62448
+Epoch: 0491 | Training: loss = 0.00393, acc = 0.00309, time = 1.64122
+Epoch: 0492 | Training: loss = 0.00422, acc = 0.00338, time = 1.62958
+Epoch: 0493 | Training: loss = 0.00384, acc = 0.00300, time = 1.62160
+Epoch: 0494 | Training: loss = 0.00400, acc = 0.00316, time = 1.59615
+Epoch: 0495 | Training: loss = 0.00394, acc = 0.00310, time = 1.67075
+Epoch: 0496 | Training: loss = 0.00373, acc = 0.00289, time = 1.59016
+Epoch: 0497 | Training: loss = 0.00407, acc = 0.00324, time = 1.64408
+Epoch: 0498 | Training: loss = 0.00344, acc = 0.00261, time = 1.63312
+Epoch: 0499 | Training: loss = 0.00481, acc = 0.00398, time = 1.63641
+Epoch: 0500 | Training: loss = 0.00438, acc = 0.00355, time = 1.63823
+Epoch: 0501 | Training: loss = 0.00365, acc = 0.00283, time = 1.66408
+Epoch: 0502 | Training: loss = 0.00417, acc = 0.00335, time = 1.65051
+Epoch: 0503 | Training: loss = 0.00498, acc = 0.00417, time = 1.64413
+Epoch: 0504 | Training: loss = 0.00505, acc = 0.00424, time = 1.64785
+Epoch: 0505 | Training: loss = 0.01155, acc = 0.01074, time = 1.64823
+Epoch: 0506 | Training: loss = 0.00324, acc = 0.00243, time = 1.65390
+Epoch: 0507 | Training: loss = 0.00636, acc = 0.00556, time = 1.65550
+Epoch: 0508 | Training: loss = 0.00351, acc = 0.00270, time = 1.63401
+Epoch: 0509 | Training: loss = 0.00734, acc = 0.00654, time = 1.65191
+Epoch: 0510 | Training: loss = 0.00336, acc = 0.00256, time = 1.62738
+Epoch: 0511 | Training: loss = 0.00433, acc = 0.00353, time = 1.65503
+Epoch: 0512 | Training: loss = 0.00357, acc = 0.00278, time = 1.61681
+Epoch: 0513 | Training: loss = 0.00412, acc = 0.00333, time = 1.63232
+Epoch: 0514 | Training: loss = 0.00405, acc = 0.00326, time = 1.67428
+Epoch: 0515 | Training: loss = 0.00378, acc = 0.00300, time = 1.79454
+Epoch: 0516 | Training: loss = 0.00426, acc = 0.00347, time = 1.69214
+Epoch: 0517 | Training: loss = 0.00387, acc = 0.00309, time = 1.68048
+Epoch: 0518 | Training: loss = 0.00387, acc = 0.00309, time = 1.65075
+Epoch: 0519 | Training: loss = 0.00393, acc = 0.00315, time = 1.62190
+Epoch: 0520 | Training: loss = 0.00406, acc = 0.00328, time = 1.64689
+Epoch: 0521 | Training: loss = 0.00470, acc = 0.00392, time = 1.65374
+Epoch: 0522 | Training: loss = 0.00385, acc = 0.00308, time = 1.71846
+Epoch: 0523 | Training: loss = 0.00383, acc = 0.00306, time = 1.68598
+Epoch: 0524 | Training: loss = 0.00463, acc = 0.00386, time = 1.72291
+Epoch: 0525 | Training: loss = 0.00478, acc = 0.00400, time = 1.72047
+Epoch: 0526 | Training: loss = 0.00413, acc = 0.00336, time = 1.62301
+Epoch: 0527 | Training: loss = 0.00381, acc = 0.00303, time = 1.69875
+Epoch: 0528 | Training: loss = 0.00479, acc = 0.00401, time = 1.66533
+Epoch: 0529 | Training: loss = 0.00684, acc = 0.00606, time = 1.68156
+Epoch: 0530 | Training: loss = 0.00397, acc = 0.00319, time = 1.62179
+Epoch: 0531 | Training: loss = 0.00500, acc = 0.00422, time = 1.72538
+Epoch: 0532 | Training: loss = 0.00606, acc = 0.00528, time = 1.70510
+Epoch: 0533 | Training: loss = 0.00401, acc = 0.00322, time = 1.67479
+Epoch: 0534 | Training: loss = 0.00442, acc = 0.00364, time = 1.61654
+Epoch: 0535 | Training: loss = 0.00425, acc = 0.00347, time = 1.65512
+Epoch: 0536 | Training: loss = 0.00458, acc = 0.00379, time = 1.65049
+Epoch: 0537 | Training: loss = 0.00468, acc = 0.00389, time = 1.60239
+Epoch: 0538 | Training: loss = 0.00673, acc = 0.00595, time = 1.63255
+Epoch: 0539 | Training: loss = 0.00480, acc = 0.00402, time = 1.62674
+Epoch: 0540 | Training: loss = 0.00918, acc = 0.00840, time = 1.66469
+Epoch: 0541 | Training: loss = 0.00399, acc = 0.00320, time = 1.63152
+Epoch: 0542 | Training: loss = 0.00455, acc = 0.00376, time = 1.66562
+Epoch: 0543 | Training: loss = 0.00478, acc = 0.00399, time = 1.73606
+Epoch: 0544 | Training: loss = 0.00439, acc = 0.00360, time = 1.64693
+Epoch: 0545 | Training: loss = 0.00459, acc = 0.00381, time = 1.66083
+Epoch: 0546 | Training: loss = 0.00461, acc = 0.00383, time = 1.69895
+Epoch: 0547 | Training: loss = 0.00479, acc = 0.00402, time = 1.66725
+Epoch: 0548 | Training: loss = 0.00456, acc = 0.00378, time = 1.74282
+Epoch: 0549 | Training: loss = 0.00398, acc = 0.00321, time = 1.70947
+Epoch: 0550 | Training: loss = 0.00473, acc = 0.00396, time = 1.73177
+Epoch: 0551 | Training: loss = 0.00416, acc = 0.00340, time = 1.69900
+Epoch: 0552 | Training: loss = 0.00393, acc = 0.00317, time = 1.66002
+Epoch: 0553 | Training: loss = 0.00936, acc = 0.00860, time = 1.70090
+Epoch: 0554 | Training: loss = 0.00382, acc = 0.00306, time = 1.70439
+Epoch: 0555 | Training: loss = 0.00405, acc = 0.00329, time = 1.67924
+Epoch: 0556 | Training: loss = 0.00391, acc = 0.00315, time = 1.71458
+Epoch: 0557 | Training: loss = 0.00422, acc = 0.00347, time = 1.66060
+Epoch: 0558 | Training: loss = 0.00366, acc = 0.00291, time = 1.68907
+Epoch: 0559 | Training: loss = 0.00388, acc = 0.00313, time = 1.71351
+Epoch: 0560 | Training: loss = 0.00393, acc = 0.00318, time = 1.63806
+Epoch: 0561 | Training: loss = 0.00365, acc = 0.00290, time = 1.62467
+Epoch: 0562 | Training: loss = 0.00409, acc = 0.00334, time = 1.66081
+Epoch: 0563 | Training: loss = 0.00827, acc = 0.00752, time = 1.64343
+Epoch: 0564 | Training: loss = 0.00716, acc = 0.00641, time = 1.69681
+Epoch: 0565 | Training: loss = 0.00361, acc = 0.00286, time = 1.68261
+Epoch: 0566 | Training: loss = 0.01162, acc = 0.01088, time = 1.61576
+Epoch: 0567 | Training: loss = 0.00492, acc = 0.00418, time = 1.65371
+Epoch: 0568 | Training: loss = 0.00434, acc = 0.00361, time = 1.62795
+Epoch: 0569 | Training: loss = 0.00367, acc = 0.00294, time = 1.70620
+Epoch: 0570 | Training: loss = 0.00333, acc = 0.00260, time = 1.72247
+Epoch: 0571 | Training: loss = 0.00316, acc = 0.00244, time = 1.66621
+Epoch: 0572 | Training: loss = 0.00355, acc = 0.00282, time = 1.63743
+Epoch: 0573 | Training: loss = 0.00392, acc = 0.00320, time = 1.64454
+Epoch: 0574 | Training: loss = 0.00360, acc = 0.00288, time = 1.67101
+Epoch: 0575 | Training: loss = 0.00660, acc = 0.00588, time = 1.64123
+Epoch: 0576 | Training: loss = 0.00360, acc = 0.00289, time = 1.68021
+Epoch: 0577 | Training: loss = 0.00367, acc = 0.00295, time = 1.64602
+Epoch: 0578 | Training: loss = 0.00416, acc = 0.00345, time = 1.64797
+Epoch: 0579 | Training: loss = 0.00355, acc = 0.00284, time = 1.66028
+Epoch: 0580 | Training: loss = 0.00368, acc = 0.00297, time = 1.59450
+Epoch: 0581 | Training: loss = 0.00332, acc = 0.00261, time = 1.65546
+Epoch: 0582 | Training: loss = 0.00377, acc = 0.00306, time = 1.65615
+Epoch: 0583 | Training: loss = 0.00401, acc = 0.00330, time = 1.60500
+Epoch: 0584 | Training: loss = 0.00508, acc = 0.00438, time = 1.66122
+Epoch: 0585 | Training: loss = 0.00328, acc = 0.00258, time = 1.61947
+Epoch: 0586 | Training: loss = 0.00364, acc = 0.00294, time = 1.68229
+Epoch: 0587 | Training: loss = 0.00372, acc = 0.00302, time = 1.66498
+Epoch: 0588 | Training: loss = 0.00377, acc = 0.00307, time = 1.68835
+Epoch: 0589 | Training: loss = 0.00361, acc = 0.00291, time = 1.65142
+Epoch: 0590 | Training: loss = 0.00367, acc = 0.00297, time = 1.66694
+Epoch: 0591 | Training: loss = 0.00369, acc = 0.00300, time = 1.65399
+Epoch: 0592 | Training: loss = 0.00892, acc = 0.00823, time = 1.63308
+Epoch: 0593 | Training: loss = 0.00408, acc = 0.00339, time = 1.66436
+Epoch: 0594 | Training: loss = 0.00358, acc = 0.00289, time = 1.68280
+Epoch: 0595 | Training: loss = 0.00436, acc = 0.00367, time = 1.65256
+Epoch: 0596 | Training: loss = 0.00409, acc = 0.00339, time = 1.66221
+Epoch: 0597 | Training: loss = 0.00407, acc = 0.00337, time = 1.69029
+Epoch: 0598 | Training: loss = 0.00406, acc = 0.00336, time = 1.64655
+Epoch: 0599 | Training: loss = 0.00403, acc = 0.00333, time = 1.64140
+Epoch: 0600 | Training: loss = 0.00401, acc = 0.00331, time = 1.66267
+Finish traing.
+Start to test
+Test loss: 0.013793670572340488 ; Test accuracy: 0.013091308064758778
+auc:0.600063, aupr:0.643873
+auc_ave:0.600063, auc_std: 0.000000, aupr_ave:0.643873, aupr_std:0.000000

@@ -1,0 +1,38 @@
+{
+ "n_max": 6400,
+ "seed": 42,
+ "emb_dim": 128,
+ "go_term_max_genes": 300,
+ "go_topk": 50,
+ "n_universe": 6400,
+ "ppi_edges": {
+  "hetionet2016": 42966,
+  "string2021": 60232
+ },
+ "runs": {
+  "2012_hetionet2016": {
+   "n_train_pairs": 8695,
+   "n_test_pairs": 8807
+  },
+  "2014_hetionet2016": {
+   "n_train_pairs": 9954,
+   "n_test_pairs": 7548
+  },
+  "2016_hetionet2016": {
+   "n_train_pairs": 10383,
+   "n_test_pairs": 7119
+  },
+  "2012_string2021": {
+   "n_train_pairs": 8695,
+   "n_test_pairs": 8807
+  },
+  "2014_string2021": {
+   "n_train_pairs": 9954,
+   "n_test_pairs": 7548
+  },
+  "2016_string2021": {
+   "n_train_pairs": 10383,
+   "n_test_pairs": 7119
+  }
+ }
+}
